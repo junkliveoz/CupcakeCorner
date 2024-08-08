@@ -11,6 +11,15 @@
 		667E367B2C623E0700BEBC64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E367A2C623E0700BEBC64 /* ContentView.swift */; };
 		667E367D2C623E0900BEBC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667E367C2C623E0900BEBC64 /* Assets.xcassets */; };
 		667E36802C623E0900BEBC64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667E367F2C623E0900BEBC64 /* Preview Assets.xcassets */; };
+		667E36872C62440900BEBC64 /* DataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E36862C62440900BEBC64 /* DataFromInternet.swift */; };
+		667E36892C62471B00BEBC64 /* InternetImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E36882C62471B00BEBC64 /* InternetImages.swift */; };
+		667E368B2C63892700BEBC64 /* DisabledForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E368A2C63892700BEBC64 /* DisabledForm.swift */; };
+		667E368D2C638D6D00BEBC64 /* CodableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E368C2C638D6D00BEBC64 /* CodableClass.swift */; };
+		66D490EC2C63994A00256038 /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D490EB2C63994A00256038 /* HapticEffects.swift */; };
+		66D490EF2C639A0F00256038 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D490EE2C639A0F00256038 /* Order.swift */; };
+		66D490F12C639DE900256038 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D490F02C639DE900256038 /* AddressView.swift */; };
+		66D490F32C647EFB00256038 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D490F22C647EFB00256038 /* CheckoutView.swift */; };
+		66D490F52C64DC2200256038 /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D490F42C64DC2200256038 /* String-EmptyChecking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		667E367A2C623E0700BEBC64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		667E367C2C623E0900BEBC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667E367F2C623E0900BEBC64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		667E36862C62440900BEBC64 /* DataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromInternet.swift; sourceTree = "<group>"; };
+		667E36882C62471B00BEBC64 /* InternetImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetImages.swift; sourceTree = "<group>"; };
+		667E368A2C63892700BEBC64 /* DisabledForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledForm.swift; sourceTree = "<group>"; };
+		667E368C2C638D6D00BEBC64 /* CodableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableClass.swift; sourceTree = "<group>"; };
+		66D490EB2C63994A00256038 /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
+		66D490EE2C639A0F00256038 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		66D490F02C639DE900256038 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		66D490F22C647EFB00256038 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		66D490F42C64DC2200256038 /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,11 @@
 			children = (
 				667E36782C623E0700BEBC64 /* CupcakeCornerApp.swift */,
 				667E367A2C623E0700BEBC64 /* ContentView.swift */,
+				66D490F02C639DE900256038 /* AddressView.swift */,
+				66D490F42C64DC2200256038 /* String-EmptyChecking.swift */,
+				66D490F22C647EFB00256038 /* CheckoutView.swift */,
+				66D490EE2C639A0F00256038 /* Order.swift */,
+				66D490ED2C6399B700256038 /* DemoCode */,
 				667E367C2C623E0900BEBC64 /* Assets.xcassets */,
 				667E367E2C623E0900BEBC64 /* Preview Content */,
 			);
@@ -65,6 +88,18 @@
 				667E367F2C623E0900BEBC64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66D490ED2C6399B700256038 /* DemoCode */ = {
+			isa = PBXGroup;
+			children = (
+				66D490EB2C63994A00256038 /* HapticEffects.swift */,
+				667E368C2C638D6D00BEBC64 /* CodableClass.swift */,
+				667E368A2C63892700BEBC64 /* DisabledForm.swift */,
+				667E36882C62471B00BEBC64 /* InternetImages.swift */,
+				667E36862C62440900BEBC64 /* DataFromInternet.swift */,
+			);
+			path = DemoCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D490F52C64DC2200256038 /* String-EmptyChecking.swift in Sources */,
+				66D490EC2C63994A00256038 /* HapticEffects.swift in Sources */,
 				667E367B2C623E0700BEBC64 /* ContentView.swift in Sources */,
+				66D490F32C647EFB00256038 /* CheckoutView.swift in Sources */,
+				66D490EF2C639A0F00256038 /* Order.swift in Sources */,
+				667E368D2C638D6D00BEBC64 /* CodableClass.swift in Sources */,
+				667E368B2C63892700BEBC64 /* DisabledForm.swift in Sources */,
+				66D490F12C639DE900256038 /* AddressView.swift in Sources */,
+				667E36872C62440900BEBC64 /* DataFromInternet.swift in Sources */,
+				667E36892C62471B00BEBC64 /* InternetImages.swift in Sources */,
 				667E36792C623E0700BEBC64 /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
